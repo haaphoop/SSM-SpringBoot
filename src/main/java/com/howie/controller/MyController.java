@@ -19,6 +19,10 @@ public class MyController {
 
     @Autowired
     public MyController(MyService myService) {
+    	String str = null;
+    	if (str.equals("tt")) {
+    		System.out.println("fdsaf");
+    	}
         this.myService = myService;
     }
 
