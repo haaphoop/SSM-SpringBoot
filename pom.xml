@@ -59,9 +59,10 @@
 				<artifactId>findbugs-maven-plugin</artifactId>
 				<version>3.0.1</version>
 				<configuration> 
-				<findbugsXmlOutput>true</findbugsXmlOutput>   
-				<findbugsXmlWithMessages>true</findbugsXmlWithMessages>    
-				<xmlOutput>true</xmlOutput>     
+					<findbugsXmlOutput>true</findbugsXmlOutput>   
+					<findbugsXmlWithMessages>true</findbugsXmlWithMessages>    
+					<xmlOutput>true</xmlOutput>     
+				</configuration>
 			</plugin>
 		</plugins>
 	</build>
