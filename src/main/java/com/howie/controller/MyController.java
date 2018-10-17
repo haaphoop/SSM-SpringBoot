@@ -28,6 +28,7 @@ public class MyController {
 
     @RequestMapping(value = "/test")
     public String getShufflingImg(){
+    	String _ttt = "";
         return myService.test();
     }
 }
