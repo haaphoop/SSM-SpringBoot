@@ -29,6 +29,7 @@ public class MyController {
     @RequestMapping(value = "/test")
     public String getShufflingImg(){
     	String _ttt = "";
+    	System.out.println("fdsaf");
         return myService.test();
     }
 }
