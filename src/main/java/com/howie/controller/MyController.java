@@ -30,6 +30,7 @@ public class MyController {
     public String getShufflingImg(){
     	String _ttt = "";
     	System.out.println("fdsaf");
+    	System.out.println("fdsaf");
         return myService.test();
     }
 }
